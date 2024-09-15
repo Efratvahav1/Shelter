@@ -25,3 +25,6 @@ li {
 li:last-child {
     border-bottom: none; /* ביטול גבול תחתון לפריט האחרון */
 }
+.home-image {
+    width: 250px;
+border: 1px solid black;}
