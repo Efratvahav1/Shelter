@@ -1,6 +1,27 @@
 
 body {
-    background-color: brown;
-    color: white;
-    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #fff0fe;
+    margin: 20px;
+}
+
+ul {
+    list-style-type: square; /* סגנון תבליטים */
+    padding-left: 20px;
+    border: 2px solid #4CAF50; /* גבול לרשימה */
+    border-radius: 10px; /* פינות מעוגלות */
+    background-color: #e0ffe0; /* צבע רקע לרשימה */
+    max-width: 300px;
+    margin: auto;
+}
+
+li {
+    padding: 10px;
+    font-size: 18px;
+    color: #333;
+    border-bottom: 1px solid #ddd; /* גבול תחתון לפריטים */
+}
+
+li:last-child {
+    border-bottom: none; /* ביטול גבול תחתון לפריט האחרון */
 }
